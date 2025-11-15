@@ -20,15 +20,15 @@ export default defineConfig([
     extends: ["css/recommended"],
   },
   {
-    files: ['**/*.js'],
+    files: ["**/*.js"],
     languageOptions: {
       globals: {
         ...globals.jest,
       },
     },
     rules: {
-      'no-unused-vars': 'warn',
-      'no-undef': 'warn',
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
     },
   },
 ]);
